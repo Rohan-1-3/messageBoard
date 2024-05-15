@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> <%= title %> </title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
     <h1><%= title %></h1>
+    <a href="/"><button>Back</button></a>
     <form method="POST" action="/new">
         <label for="message">Message: </label>
-        <input type="text" name="message">
+        <input type="text" name="message" required>
 
         <label for="user">User: </label>
-        <input type="text" name="user">
+        <input type="text" name="user" required>
 
-        <button>Submit</button>
+        <input type="submit">
     </form>
 </body>
 </html>

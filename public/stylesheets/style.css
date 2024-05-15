@@ -6,3 +6,25 @@ body {
 a {
   color: #00B7FF;
 }
+
+button{
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+button:hover{
+  opacity: .6;
+}
+
+.date{
+  color: grey;
+}
+
+form{
+  margin: 2rem;
+}
